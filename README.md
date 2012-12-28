@@ -9,5 +9,5 @@ Dependencies:
 
 Usage:
 <pre>
-<code>./porto-dict <word></code>
+<code>./porto-dict &lt;word&gt;</code>
 </pre>
