@@ -8,12 +8,11 @@ from bs4 import BeautifulSoup
 Checks a portuguese word synonym in Porto Editora
 online dictionary (http://www.infopedia.pt/pesquisa-global/)
 You can also check for a foreign word (english, french, etc).
-Not tested exhaustively.
 """
 
 arguments = sys.argv
 if len(arguments) < 2:
-    print 'Deve especificar a palavra.'
+    print 'Usage: ' + __file__ + ' <word>'
     sys.exit()
 
 word = arguments[1]
